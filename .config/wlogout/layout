@@ -16,9 +16,3 @@
     "text" : "Log Out",
     "keybind" : "o"
 }
-{
-    "label" : "lock",
-    "action" : "hyprlock",
-    "text" : "Lock",
-    "keybind" : "l"
-}
