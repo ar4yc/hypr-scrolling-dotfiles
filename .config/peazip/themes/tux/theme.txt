@@ -1,0 +1,14 @@
+﻿tux
+Giorgio Tani
+LGPLv3
+themes\tux\
+100
+$00E0A000
+clWindow
+$00CC5511
+clAppWorspace
+clWindowText
+1120001040
+100
+4
+0
