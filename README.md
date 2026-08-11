@@ -17,8 +17,9 @@
 > * App launcher - Rofi
 > * Notify Center - SwayNC
 
-<sub><sub><sub>*ₘᵧ ₘₑₙₜₐₗ ₕₑₐₗₜₕ․․*</sub></sub></sub><sub><sub><sub> *ₕₑₗₚ․․_*</sub></sub></sub>
 </details>
+
+<br>
 
 <details open>
 <summary><b>Screenshots</b></summary> 
