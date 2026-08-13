@@ -11,13 +11,13 @@ check_state() {
     if [[ "$CURRENT_CLASS" == "$VM_CLASS" && "$IS_FULLSCREEN" != "0" ]]; then
         if [[ "$PASSTHROUGH_ACTIVE" -eq 0 ]]; then
             echo "activate"
-            hyprctl dispatch submap passthrough
+            hyprctl eval "hl.dispatch(hl.dsp.submap('passthrough'))"
             PASSTHROUGH_ACTIVE=1
         fi
     elif [[ "$CURRENT_CLASS" == "$VM_CLASS" && "$IS_FULLSCREEN" == "0" ]]; then
         if [[ "$PASSTHROUGH_ACTIVE" -eq 1 ]]; then
             echo "back"
-            hyprctl dispatch submap reset
+            hyprctl eval "hl.dispatch(hl.dsp.submap('reset'))"
             PASSTHROUGH_ACTIVE=0
         fi
     fi
