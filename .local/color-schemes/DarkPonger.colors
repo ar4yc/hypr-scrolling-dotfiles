@@ -104,8 +104,8 @@ ForegroundPositive=22,218,36
 ForegroundVisited=127,140,141
 
 [General]
-ColorScheme=BreezeDark
-Name=themix_base16
+ColorScheme=DarkPonger
+Name=DarkPonger
 shadeSortColumn=true
 
 [KDE]
